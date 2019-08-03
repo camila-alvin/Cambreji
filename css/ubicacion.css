@@ -1,0 +1,37 @@
+/*----------------------------------------NAV-BAR------------------- */
+.bg-dark {
+  background-color:#000000!important;
+}
+.navbar-dark .navbar-brand {
+  color: #FF9800;
+}
+.navbar-brand {
+  font-size: 1.50rem;
+}
+/*----------------------------------------FOOTER--------------------*/
+footer {
+  background-color:#000000!important;
+  color: #ffffff;
+  padding: 10px 0px;
+  text-align: center;
+}
+body{
+  background-color: black;
+}
+.hr {border-top: 1px solid #000; width:50%;}
+
+.a {color: #000;}
+
+.a:link{text-decoration:none;}
+
+.box1{background: #FF9800;}
+.box2{background: #FF9800;}
+.box3{background: #FF9800;}
+
+/* Inicio.css | file:///C:/Users/airam/Desktop/PROYECT/css/Inicio.css */
+
+.navbar-dark .navbar-brand {
+  font-family: initial;
+  font-size: xx-large;
+  font-style: oblique;
+}

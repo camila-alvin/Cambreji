@@ -1,0 +1,116 @@
+header {
+    background:#283747;
+    color:#fff;
+}
+h1{
+    text-align: center;
+    font-family: 'Leckerli One', cursive; 
+}
+h3{
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Questrial&display=swap');
+	* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+}
+body{
+	height: 100vh;
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+	font-family: 'Questrial', sans-serif;
+}
+
+img {
+	max-width: 100%;
+}
+
+button{
+padding: 10px 15px;
+border-radius: 3px;
+border: none;
+font-size:15px;
+font-weight: bold;
+letter-spacing: 1.5px;
+font-family: 'Questrial', sans-serif;
+background-color: #B0C4DE;
+}
+
+a {
+text-decoration: none;
+position: relative;
+color:white;
+font-size: 12.5px;
+}
+
+form.login {
+	transform: translateY(6rem);
+	border-radius: 3px;
+	width: 330px;
+	height: 450px;
+	padding-top: 5rem !important;
+	padding: 0 2rem;
+	background: rgb(0,0,0,0.9);
+	margin: auto;
+	position: relative;
+}
+
+form.login input {
+	background: rgb(255,255,255,0.2);
+}
+
+.inputs {
+	margin-top: 5rem;
+}
+.inputs input {
+	padding: 15px 10px;
+	width: 100%;
+	border-radius: 2px;
+	outline: none;
+	border: 2px solid #ccc;
+	color: #ccc;
+	margin-bottom: 20px;
+}
+
+.logo {
+	position: absolute;
+	top: -7rem;
+	left: 0;
+	right: 0;
+	text-align: center;
+	margin: auto;
+	width: 150px;
+	height: 150px;
+}
+
+form.login button {
+	background: linear-gradient(-45deg, #d65a31, #a34a28);
+	width: 100%;
+	font-size: 13px;
+	text-transform: uppercase;
+	padding: 15px;
+	color: #fff;
+	cursor: pointer;
+	outline: none;
+	margin-bottom: 20px;
+}
+
+form.login a {
+	color: #d65a31;
+}
+
+p {
+	font-size: 13px;
+	color: #fff;
+}
+  

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Reservacion</title>
+	<!-- Google fuente -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <script src="js/bootstrap.min.js"></script>
+	<!-- Custom stlylesheet -->
+	<link type="text/css" rel="stylesheet" href="css/reser.css" />
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+              <a class="navbar-brand" href="Inicio.html">Cambreji</a>
+              	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                    	<a class="nav-link" href="Menu.html">Menú
+                        <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                   		 <a class="nav-link" href="Nosotros.html">Nosotros</a>
+                  	</li>
+                  	<li class="nav-item">
+                   		 <a class="nav-link" href="form_reservacion.html">Reserva</a>
+                  	</li>
+                  	<li class="nav-item">
+                    	<a class="nav-link" href="Ubicacion.html">Ubicación</a>
+                 	</li>
+                 	<li class="nav-item">
+                      <a class="nav-link" href="Ubicacion.html">Tips</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="Ubicacion.html">Comentarios</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav> <br><br>
+	<div id="reser" class="section">
+		<div class="section-center">
+			<div class="container">
+				<div class="row">
+					<div class="reser-form">
+						<div class="form-header">
+							<h1>Reservación</h1>
+						</div>
+						<form>
+							<div class="row">
+								<div class="col-sm-6">
+									<div class="form-group">
+										<span class="form-label">Nombre</span>
+										<input class="form-control" type="text" placeholder="Escribe tu Nombre">
+									</div>
+								</div>
+								<div class="col-sm-6">
+										<div class="form-group">
+											<span class="form-label">Apellidos</span>
+											<input class="form-control" type="text" placeholder="Escribe tu Nombre">
+										</div>
+								</div>
+								<div class="col-sm-6">
+									<div class="form-group">
+										<span class="form-label">Email</span>
+										<input class="form-control" type="email" placeholder="Escribe tu email">
+									</div>
+								</div>
+							</div>
+							<div class="form-group">
+								<span class="form-label">telefono</span>
+								<input class="form-control" type="tel" placeholder="Escribe tu telefono">
+							</div>
+							<div class="row">
+								<div class="col-sm-5">
+									<div class="form-group">
+										<span class="form-label">Fecha</span>
+										<input class="form-control" type="date" required>
+									</div>
+								</div>
+								<div class="col-sm-4">
+										<div class="form-group">
+											<span class="form-label">Personas</span>
+											<select class="form-control">
+												<option>1</option>
+												<option>2</option>
+												<option>3</option>
+												<option>4</option>
+												<option>5</option>
+												<option>6</option>
+												<option>7</option>
+												<option>8</option>
+												<option>9</option>
+												<option>10</option>
+												<option>11</option>
+												<option>12</option>
+												<option>13</option>
+												<option>14</option>
+												<option>15</option>
+											</select>
+											<span class="select-arrow"></span>
+										</div>
+									</div>
+								<div class="col-sm-7">
+									<div class="row">
+										<div class="col-sm-4">
+											<div class="form-group">
+												<span class="form-label">Hr</span>
+												<select class="form-control">
+													<option>1</option>
+													<option>2</option>
+													<option>3</option>
+													<option>4</option>
+													<option>5</option>
+													<option>6</option>
+													<option>7</option>
+													<option>8</option>
+													<option>9</option>
+													<option>10</option>
+													<option>11</option>
+													<option>12</option>
+												</select>
+												<span class="select-arrow"></span>
+											</div>
+										</div>
+										<div class="col-sm-4">
+											<div class="form-group">
+												<span class="form-label">Min</span>
+												<select class="form-control">
+													<option>05</option>
+													<option>10</option>
+													<option>15</option>
+													<option>20</option>
+													<option>25</option>
+													<option>30</option>
+													<option>35</option>
+													<option>40</option>
+													<option>45</option>
+													<option>50</option>
+													<option>55</option>
+												</select>
+												<span class="select-arrow"></span>
+											</div>
+										</div>
+										<div class="col-sm-4">
+											<div class="form-group">
+												<span class="form-label">AM/PM</span>
+												<select class="form-control">
+													<option>AM</option>
+													<option>PM</option>
+												</select>
+												<span class="select-arrow"></span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="form-btn">
+								<button class="submit-btn">Reserva ahora</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+<!-----------------------------------------------------------FOOTER---------------------------------------------------------------->
+<footer class="page-footer font-small special-color-dark pt-4">
+
+  <!-- Footer Elements -->
+    
+  <div class="footer-copyright text-center py-3">© 2019 Copyright:
+	<a href="Inicio.html">Cambreji</a>
+	<h6>"Comer sano es comer Variado"</h6>
+  </div>
+  <div>
+	<a href="https://www.facebook.com/Cambreji/?hc_ref=ART9LcfM0ACmSPlm2hAzSTGHf08bA7koVGCeKQG2e6yvFSWSx0wvuUXxW5rOKPPQ8Rs&fref=nf&__xts__[0]=68.ARB6xtqKeyGxIxA9_iM1VKvIB7haUkQh-OotOFGtlS3Cf1P_9Lf9mvuduZNaYaV_iBquiiCaUzMNyqMxQgSqjkbzXQrLofJLYIg_SIyXMo2v74zUYXfjd9zQN9CISihS3vxvGyY1czsnCS-ztVYNpuL5YHvZAMqstwqSWhbUJob3iiggrpM6eB93N4PF_C0JNX5pIhEiRVL5VRC7jZ0C6O0NtQZto1jxhk7qZMrpp5frVMuHZuN83YOo2DoZoUhg1F5tldVc2VcfCNDXdFL1SaG8jP_HOTEsKkmZ_GY3y2SYXC10khgkcIUpjDuDjv6iEoSe00Gehz86HwjAITCiydQ&__tn__=kC-R"><img src="img/social/facebook.png" width="25" height="25"></a><!---->
+	<a href="#"><img src="img/social/twitter.png" width="25" height="25"></a>
+	<a href="#"><img src="img/social/insta.png" width="25" height="25"></a>
+	<a href="#"><img src="img/social/whatsaap.png" width="25" height="25"></a>
+  </div>
+  <!-- Copyright -->
+</footer>  
+<!---------------------------------------------------------LINKS SCRIPT------------------------------------------------------------>
+<!-- Minified JS library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Compiled and minified Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+<!----------------------------------------------------------END BODY--------------------------------------------------------------->
+</html>

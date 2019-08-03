@@ -1,0 +1,42 @@
+/*----------------------------------------NAV-BAR------------------- */
+.bg-dark {
+  background-color:#000000!important;
+}
+.navbar-dark .navbar-brand {
+  color: #FF9800;
+}
+.navbar-brand {
+  font-size: 1.50rem;
+}
+
+
+/* Inicio.css | file:///C:/Users/airam/Desktop/PROYECT/css/Inicio.css */
+
+.navbar-dark .navbar-brand {
+  font-family: initial;
+  font-size: xx-large;
+  font-style: oblique;
+}
+
+/*----------------------------------------FOOTER--------------------*/
+footer {
+  background-color:#000000!important;
+  color: #ffffff;
+  padding: 10px 0px;
+  text-align: center;
+}
+body{
+  background: url(../img/pr1.jpg) no-repeat center center fixed;
+  background-size: cover;
+  text-align: center;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5{
+  margin-bottom: .5rem;
+  font-family: revert;
+  font-weight: 500;
+  line-height: initial;
+  color: brown;
+  font-style: italic;
+}
+
+

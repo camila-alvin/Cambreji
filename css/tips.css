@@ -1,0 +1,47 @@
+/*----------------------------------------NAV-BAR------------------- */
+.bg-dark {
+  background-color:#000000!important;
+}
+.navbar-dark .navbar-brand {
+  color: #FF9800;
+}
+.navbar-brand {
+  font-size: 1.50rem;
+}
+
+
+/* Inicio.css | file:///C:/Users/airam/Desktop/PROYECT/css/Inicio.css */
+
+.navbar-dark .navbar-brand {
+  font-family: initial;
+  font-size: xx-large;
+  font-style: oblique;
+}
+
+/*------------------------------------- ---FOOTER------------------*/
+footer {
+  background-color:#000000!important;
+  color: #ffffff;
+  padding: 10px 0px;
+  text-align: center;
+}
+body{
+  background-color: black;
+}
+
+/* bootstrap.min.css | file:///C:/Users/airam/Desktop/PROYECT/css/bootstrap.min.css */
+
+p {
+  font-style: oblique;
+  background-color: #7eff3c1a;
+}
+
+.h4, h4 {
+  text-align: center;
+}
+
+.card-title {
+  color: blue;
+  background-color: #3f9f344a;
+}
+
