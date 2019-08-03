@@ -5,7 +5,7 @@ function iniciarsesion() {
     // alert(password);
     // se almacenan los valores del usuario y la contraseña
     var param={
-        "usuario":usuario,
+        "usuario":usuario
         "password":password    
     };
     
